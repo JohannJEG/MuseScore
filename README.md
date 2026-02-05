@@ -7,6 +7,76 @@ Music notation and composition software
 
 MuseScore Studio is an open source and free music notation software. For support, contribution, and bug reports visit MuseScore.org. Fork and make pull requests!
 
+---
+
+# 🛠️ Solfeo Fijo (Cuadrado Semiredondeado) / Fixed Do Solfege (Rounded Square)
+
+![Demo](solfege-rsquare-demo.gif)
+
+## Español
+
+Fork experimental de MuseScore Studio 4.7.2.
+
+Añade una nueva variante de solfeo fijo con:
+
+- Cabezas de nota cuadradas semi redondeadas
+- Nombres completos de las notas dentro de las figuras
+  (por ejemplo: “Sol” en vez de “So”)
+
+Diseñado para pruebas de lectura musical y entornos educativos.
+
+### 🚀 Descargas
+
+- **Windows:** Descarga el `.zip`, extráelo y ejecuta la aplicación.
+- **Linux:** Descarga el `.AppImage`, dale permisos (`chmod +x`) y ejecútalo.
+
+### 📖 Uso
+
+1. Selecciona las notas.
+2. Abre **Propiedades → Notación → Nota**.
+3. En **Cabeza → Mostrar más → Tipo cabeza de nota**, selecciona:
+   - **Solfeo fijo do (Sílabas completas, cuadrado redondeado)**
+
+### ⚠️ Aviso
+
+- Compilación experimental no oficial.
+- Windows puede mostrar una advertencia SmartScreen porque el ejecutable no está firmado.
+- Haz respaldos antes de usar builds experimentales.
+
+---
+
+## English
+
+Experimental fork of MuseScore Studio 4.7.2.
+
+Adds a new fixed-do solfege variant featuring:
+
+- Rounded-square noteheads
+- Full note names inside noteheads
+  (for example: “Sol” instead of “So”)
+
+Designed for music-reading experiments and educational environments.
+
+### 🚀 Downloads
+
+- **Windows:** Download the `.zip`, extract it, and run the application.
+- **Linux:** Download the `.AppImage`, make it executable (`chmod +x`) and run it.
+
+### 📖 Usage
+
+1. Select the notes.
+2. Open **Properties → Notation → Note**.
+3. Under **Head → Show more → Notehead type**, select:
+   - **Solfège fixed do (Full syllables, rounded square)**
+
+### ⚠️ Notice
+
+- Unofficial experimental build.
+- Windows may show a SmartScreen warning because the executable is unsigned.
+- Back up important scores before testing experimental builds.
+
+---
+
 ## Features
 
 - WYSIWYG design, notes are entered on a "virtual notepaper"

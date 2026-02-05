@@ -15952,21 +15952,26 @@ Traste %1 en cuerdas %2</translation>
     </message>
     <message>
         <location filename="../../src/engraving/types/typesconv.cpp" line="1123"/>
+        <source>Solfège fixed Do (Full syllables, rounded square)</source>
+        <translation>Solfeo fijo Do (Sílabas completas, cuadrado redondeado)</translation>
+    </message>
+    <message>
+        <location filename="../../src/engraving/types/typesconv.cpp" line="1125"/>
         <source>4-shape (Walker)</source>
         <translation>4 formas (Walker)</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/types/typesconv.cpp" line="1124"/>
+        <location filename="../../src/engraving/types/typesconv.cpp" line="1126"/>
         <source>7-shape (Aikin)</source>
         <translation>Forma 7 (Aikin)</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/types/typesconv.cpp" line="1125"/>
+        <location filename="../../src/engraving/types/typesconv.cpp" line="1127"/>
         <source>7-shape (Funk)</source>
         <translation>Forma 7 (Funk)</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/types/typesconv.cpp" line="1126"/>
+        <location filename="../../src/engraving/types/typesconv.cpp" line="1128"/>
         <source>7-shape (Walker)</source>
         <translation>7 formas (Walker)</translation>
     </message>
@@ -26083,6 +26088,12 @@ anacrusa</translation>
         <source>7-shape (Walker)</source>
         <comment>notehead scheme</comment>
         <translation>7 formas (Walker)</translation>
+    </message>
+        <message>
+        <location filename="../../src/inspector/qml/MuseScore/Inspector/notation/notes/noteheads/noteheadsettingsmodel.cpp" line="249"/>
+        <source>Solfège fixed do (Full syllables, rounded square)</source>
+        <comment>notehead scheme</comment>
+        <translation>Solfeo fijo do (Sílabas completas, cuadrado redondeado)</translation>
     </message>
     <message>
         <location filename="../../src/inspector/qml/MuseScore/Inspector/notation/notes/notesettingsproxymodel.cpp" line="42"/>
