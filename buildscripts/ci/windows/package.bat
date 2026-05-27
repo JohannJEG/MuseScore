@@ -51,23 +51,8 @@ IF %BUILD_MODE% == stable  ( SET PACKAGE_TYPE="msi") ELSE (
     GOTO END_ERROR
 )))))
 
+REM Disable signing for fork/testing builds
 SET DO_SIGN=OFF
-IF %PACKAGE_TYPE% == "msi" ( 
-    SET DO_SIGN=ON
-)
-IF %PACKAGE_TYPE% == "portable" ( 
-    SET DO_SIGN=ON
-)
-IF %DO_SIGN% == ON (
-    IF %SIGN_KEY% == "" ( 
-        SET DO_SIGN=OFF
-        ECHO "warning: not set SIGN_KEY"
-    )
-    IF %SIGN_SECRET% == "" ( 
-        SET DO_SIGN=OFF
-        ECHO "warning: not set SIGN_SECRET"
-    )
-)
 
 SET SIGN="buildscripts\ci\windows\sign.bat"
 
